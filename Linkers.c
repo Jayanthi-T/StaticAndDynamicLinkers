@@ -3,7 +3,6 @@
 #include<conio.h>
 #include<string.h>
 
-
 int checkaddr(char var[],int arr[],int n)
 {
     int m=atoi(var);
