@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
+#include<conio.h>      
 #include<string.h>
 
 int checkaddr(char var[],int arr[],int n)
@@ -82,7 +82,7 @@ int main()
 
         fgets(str,40,f4);
         strtok(str,"\n");
-        char link[3][10];
+        char link[3][10];    
         int y=0;
         char *ptr=strtok(str,"\t");
         while(ptr!=NULL)
