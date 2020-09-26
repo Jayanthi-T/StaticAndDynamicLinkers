@@ -7,7 +7,7 @@ int checkaddr(char var[],int arr[],int n)
 {
     int m=atoi(var);
     int i,flag=0;
-    for(i=0;i<n;i++)
+    for(i=0;i<n;i++) 
     {
         if(m==arr[i])
         {
