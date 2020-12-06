@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h> 
-#include<conio.h>
+#include<conio.h> 
 #include<string.h>    
 
 int checkaddr(char var[],int arr[],int n)
