@@ -84,7 +84,7 @@ int main()
         strtok(str,"\n");
         char link[3][10];    
         int y=0;
-        char *ptr=strtok(str,"\t");
+        char *ptr=strtok(str,"\t"); 
         while(ptr!=NULL)
         {
             strcpy(link[y],ptr);
