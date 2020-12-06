@@ -79,7 +79,7 @@ int main()
     fprintf(f6,"Q\t%d\n",origin2+relocation_factor2);
      while(!feof(f4))
     {
-
+ 
         fgets(str,40,f4);
         strtok(str,"\n");
         char link[3][10];    
